@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI - Transacoes</title>
+    <link rel="stylesheet" type="text/css" href="transacoes.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo-img" src="pi-logo.svg"/>
+        </div>
+        <form id="usuario">
+            <input id="usuario"type="text" placeholder="Nome Usuario"/> <br/>
+            <!-- quando souber como puxar do banco o nome do usuario trocamos o placeholder -->
+           <button>Sair</button>
+        </form>
+    </header>
+    <main>
+        <div class="menuesq">
+            <p id="botaoNovo">+ Nova (desp / rec)</p>
+            <ul id="listamenu">
+                <li>Dashboard</li>
+                <li>Transações</li>
+                <li>Planejamento</li>
+                <li>Contas</li>
+
+            </ul>
+        </div>
+        <div class="paineldireita">
+            <div class="form-tipo">
+                <label for="fom-tipo">Tipo</label>
+                <select required>
+                    <option>Receita</option>    
+                    <option>Despesa</option>
+                </select>
+            </div>
+            <div class="form-categoria">
+                <label for="form-categoria">Categoria</label>
+                <select required>
+                    <option>Salário</option>    
+                    <option>Freelancer</option>
+                    <option>Cursos</option>
+                    <option>Aluguel</option>
+                    <option>IPTU</option>
+                    <option>Condominio</option>
+                    <option>Transporte</option>
+                    <option>Celular</option>
+                    <option>Netflix</option>
+                    <option>Internet</option>
+                    <option>Bar e restaurante</option>
+                    <option>Cinema</option>
+                    <option>Supermercado</option>
+                </select>
+            </div>
+            <div class="form-nome">
+                <label for="form-nome">Nome</label>
+                <input type="text" required maxlength="150">
+            </div>
+            <div class="form-valor">
+                <label for="form-valor">Valor</label>
+                <input type="number" required>
+            </div>
+            <div class="form-dtpgto">
+                <label for="form-dtpgto">Data Pagamento</label>
+                <input type="date" required>
+            </div>
+            <div class="form-obs">
+                <label for="form-obs">Observação</label>
+                <textarea maxlength="500"></textarea>
+            </div>
+
+
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="esqfooter">
+            COPYRIGHT
+        </div>
+        <div class="centfooter">
+
+        </div>
+        <div class="redesocial">
+            <p>Redes Sociais</p>
+            <img id="facebook" alt="facebook" href="#" title="facebook" src="facebook.png"/>
+            <img id="instagram" alt="instagram" href="#" title="instagram" src="Instagram.png"/>
+            <img id="twitter" alt="twiter" href="#" title="twiter" src="twitter.png"/>
+        </div>
+    </footer>
+    
+</body>
+</html>

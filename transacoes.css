@@ -29,7 +29,8 @@ header{
 
 #logo-img{
     width:25%;
-}    
+    
+}
 #usuario{
     border:transparent;
     background:#94d4c1;
@@ -76,32 +77,14 @@ main{
     width:80%;
     flex-grow:1;
     display:flex;
-    flex-direction:column;
-}
-.paineldir1{
-    font-size:20rem;
-}
-.paineldir2{
-    display:flex;
     flex-direction:row;
-    margin-bottom:10rem;
 }
-.Saldoatual, .Totaldespesas, .Totalreceitas{
-    margin-top:10rem;
-    margin-right:20rem;
-    font-size:20rem;
+.form-tipo{
+    width: 80%;
+  
 }
-
-.paineldir3{
-    border:1px solid gray;
-    height:500rem;
+.campos{
 }
-
-.paineldir4{
-    border:1px solid gray;
-    height:500rem;
-}
-
 
 footer{
     height:150rem;
