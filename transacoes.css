@@ -72,18 +72,59 @@ main{
     text-align:center;
     padding-top:10rem;
 }
-
 .paineldireita{
     width:80%;
     flex-grow:1;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
 }
-.form-tipo{
-    width: 80%;
+
+.paineldireita2{
+    width:80%;
+    flex-grow:1;
+    display:flex;
+    flex-direction:row;
+    height:51%
+}
+.nome-campo{
+    width: 40%;
+    display:flex;
+    flex-direction:column;
+    margin-left: 50rem;
+    margin-top:30rem;
   
 }
 .campos{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin-top:30rem;
+}
+#tipo, #categoria, #nome, #valor, #data {
+    margin-top:30rem;
+    width:350rem;
+    height:20rem;
+    justify-self:center;
+    border-radius:5rem;
+}
+#form-tipo, #form-categoria, #form-nome, #form-valor, #form-dtpgto {
+    border-bottom:1px dashed grey;
+    margin-top:20rem;
+}
+.observacao{
+    width: 40%;
+    margin-left: 50rem;
+    display:flex;
+    align-content: flex-start;
+    flex-direction:column;
+    height:49%
+}
+#observacao{
+    width:720rem;
+    height:220rem;
+    align-self:flex-start;
+    border-radius:5rem;
 }
 
 footer{

@@ -29,53 +29,46 @@
 
             </ul>
         </div>
-        <div class="paineldireita">
-            <div class="form-tipo">
-                <label for="fom-tipo">Tipo</label>
-                <select required>
-                    <option>Receita</option>    
-                    <option>Despesa</option>
-                </select>
+            <div class="paineldireita">
+                <div class="paineldireita2">
+                    <div class="nome-campo">
+                        <label id="form-tipo">Tipo</label>
+                        <label id="form-categoria">Categoria</label>
+                        <label id="form-nome">Nome</label>
+                        <label id="form-valor">Valor</label>
+                        <label id="form-dtpgto">Data Pagamento</label>
+                    
+                    </div>
+                    <div class="campos">
+                        <select id="tipo" required>
+                            <option>Receita</option>    
+                            <option>Despesa</option>
+                        </select>
+                        <select id="categoria" required>
+                            <option>Salário</option>    
+                            <option>Freelancer</option>
+                            <option>Cursos</option>
+                            <option>Aluguel</option>
+                            <option>IPTU</option>
+                            <option>Condominio</option>
+                            <option>Transporte</option>
+                            <option>Celular</option>
+                            <option>Netflix</option>
+                            <option>Internet</option>
+                            <option>Bar e restaurante</option>
+                            <option>Cinema</option>
+                            <option>Supermercado</option>
+                        </select>
+                        <input id="nome" type="text" required maxlength="150">
+                        <input id="valor" type="number" required>
+                        <input id="data" type="date" required>
+                    </div>    
+                </div>
+                <div class="observacao">
+                    <label id="form-obs">Observação</label>
+                    <textarea id="observacao" maxlength="500"></textarea>
+                </div>
             </div>
-            <div class="form-categoria">
-                <label for="form-categoria">Categoria</label>
-                <select required>
-                    <option>Salário</option>    
-                    <option>Freelancer</option>
-                    <option>Cursos</option>
-                    <option>Aluguel</option>
-                    <option>IPTU</option>
-                    <option>Condominio</option>
-                    <option>Transporte</option>
-                    <option>Celular</option>
-                    <option>Netflix</option>
-                    <option>Internet</option>
-                    <option>Bar e restaurante</option>
-                    <option>Cinema</option>
-                    <option>Supermercado</option>
-                </select>
-            </div>
-            <div class="form-nome">
-                <label for="form-nome">Nome</label>
-                <input type="text" required maxlength="150">
-            </div>
-            <div class="form-valor">
-                <label for="form-valor">Valor</label>
-                <input type="number" required>
-            </div>
-            <div class="form-dtpgto">
-                <label for="form-dtpgto">Data Pagamento</label>
-                <input type="date" required>
-            </div>
-            <div class="form-obs">
-                <label for="form-obs">Observação</label>
-                <textarea maxlength="500"></textarea>
-            </div>
-
-
-
-        </div>
-
     </main>
     <footer>
         <div class="esqfooter">
