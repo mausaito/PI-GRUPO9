@@ -126,9 +126,20 @@ main{
     align-self:flex-start;
     border-radius:5rem;
 }
+.comandos{
+    display:flex;
+    justify-content:flex-end;
+    position:relative;
+    right:36.5%;
+    margin-bottom:20rem;
+   }
+#botaoAdicionar{
+    font-size:22rem;
+    border-radius:5rem;
+}
 
 footer{
-    height:150rem;
+    height:110rem;
     background:rgb(226, 226, 226);
     width:100vw;
     display:flex;
