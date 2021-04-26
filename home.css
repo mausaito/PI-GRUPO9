@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 html{
     font-size: 6.25%;
 }
@@ -8,12 +11,13 @@ html{
 }    
 
 body{
-    box-sizing: border-box;
     display:flex;
     flex-direction:column;
     min-height:100vh;
     font-size:26rem;
-    font-family:"pidhg9"
+    font-family:"pidhg9";
+    margin-top: 0;
+    margin-left: 0;
 }
 header{
     height: 120rem;
@@ -23,12 +27,18 @@ header{
     justify-content:space-around;
 }
 .logo{
-    width:20%;
+    width:30%;
     margin:14rem;
+    display: flex;
+    justify-self: center;
 }
-
+header div a{
+    display: flex;
+    justify-self: center;  
+}
 #logo-img{
-    width:25%;
+    display: flex;
+    justify-self: center;
 }
 .menuhome {
     width:60%;
@@ -48,6 +58,7 @@ header{
     color:gray;
     width:20%;
     margin-left:200rem;
+    margin-right: 10px;
    }
 
 #email, #senha{
@@ -56,6 +67,7 @@ header{
     border:1px grey;
     height: 20rem;
     width:210rem;
+    
 }   
 button{
     width:106rem;
@@ -63,6 +75,7 @@ button{
     background:#b0b3b2;
     border-radius:4rem;
     border:2px black;
+    color: black;
 }
 .menuhome{
     align-self:flex-end;
@@ -99,7 +112,11 @@ p {
     margin-bottom: 10rem;
     text-align:justify;
     width:400rem;
-}    
+}   
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
 footer{
     height:110rem;
     background:rgb(226, 226, 226);

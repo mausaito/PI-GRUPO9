@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 html{
     font-size: 6.25%;
 }
@@ -8,12 +11,13 @@ html{
 }    
 
 body{
-    box-sizing: border-box;
     display:flex;
     flex-direction:column;
     min-height:100vh;
     font-size:26rem;
-    font-family:"pidhg9"
+    font-family:"pidhg9";
+    margin-top: 0;
+    margin-left: 0;
 }
 header{
     height: 120rem;
@@ -23,13 +27,18 @@ header{
     justify-content:space-between;
 }
 .logo{
-    width:20%;
-    margin:20rem;
+    width:30%;
+    margin:14rem;
+    display: flex;
+    justify-self: center;
 }
-
+header div a{
+    display: flex;
+    justify-self: center;  
+}
 #logo-img{
-    width:25%;
-    
+    display: flex;
+    justify-self: center;
 }
 #usuario{
     border:transparent;
